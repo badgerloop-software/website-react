@@ -20,7 +20,8 @@
         "eject": "react-scripts eject",
         "lint": "eslint src --color",
         "prettier:check": "prettier --check src",
-        "prettier:write": "prettier --write src"
+        "prettier:write": "prettier --write src",
+        "husky-install": "husky install"
     },
     "eslintConfig": {
         "extends": [

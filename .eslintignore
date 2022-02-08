@@ -1,0 +1,7 @@
+build
+node_modules
+.github
+
+# our demo files
+sum.test.js
+sum.js

@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App [![Build & deploy](https://github.com/badgerloop-software/website-react/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/badgerloop-software/website-react/actions/workflows/build-deploy.yml) [![Coverage Status](https://coveralls.io/repos/github/badgerloop-software/website-react/badge.svg?branch=main)](https://coveralls.io/github/badgerloop-software/website-react?branch=main)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

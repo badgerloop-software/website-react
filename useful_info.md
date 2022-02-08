@@ -13,6 +13,8 @@
 -   https://jestjs.io/docs/tutorial-react
 -   https://thoughtbot.com/blog/mocking-react-components-with-jest
 -   https://medium.com/swlh/react-testing-using-jest-along-with-code-coverage-report-7454b5ba0236
+-   https://create-react-app.dev/docs/running-tests/
+-   https://www.smashingmagazine.com/2020/06/practical-guide-testing-react-applications-jest/
 
 ## Hooks
 

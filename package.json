@@ -15,14 +15,26 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "jest",
-        "coverage": "jest --collectCoverage",
-        "eject": "react-scripts eject"
+        "test": "react-scripts test",
+        "coverage": " npm run test -- --coverage --watchAll=false",
+        "eject": "react-scripts eject",
+        "lint": "eslint src --color",
+        "prettier:check": "prettier --check src",
+        "prettier:write": "prettier --write src"
     },
     "eslintConfig": {
         "extends": [
             "react-app",
             "react-app/jest"
+        ]
+    },
+    "lint-staged": {
+        "*.+(js|jsx)": [
+            "eslint --fix",
+            "prettier --write --ignore-unknown"
+        ],
+        "*.+(json|css|md)": [
+            "prettier --write"
         ]
     },
     "browserslist": {
@@ -38,6 +50,14 @@
         ]
     },
     "devDependencies": {
-        "jest": "^27.5.0"
+        "eslint": "^8.8.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-react": "^7.28.0",
+        "husky": "^7.0.4",
+        "jest-watch-typeahead": "^0.6.5",
+        "lint-staged": "^12.3.3",
+        "prettier": "^2.5.1",
+        "tsc-files": "^1.1.3"
     }
 }

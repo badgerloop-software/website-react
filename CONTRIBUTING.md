@@ -37,7 +37,7 @@
 -   Mocking
 -   Coveralls
 -   PRs and not being able to merge without 80%?
--   You can see a couple sample basic tests in the directory for `App.js`, `sum.js`, and `index.js`
+-   You can see a couple sample basic tests in the directory for `App.js`, `sum.js`, and `index.js` _(note these are dummy tests and really do not do anything, except for `sum.test.js`)_
 -   The file `reportWebVitals.js` is an example of a file we want to exclude from coverage so it does not negatively impact our coverage, and this is done by adding `/* istanbul ignore file */` at the top
 
 ## Pre-Commit Hooks

@@ -31,6 +31,12 @@ jobs:
     - name: Run tests
       run: npm run test
 
+    # Save coverage report in Coveralls
+    - name: Upload coverage to Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
       with:

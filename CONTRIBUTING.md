@@ -1,16 +1,20 @@
 # Contributing
 
+-   See [useful links page](useful-info.md) for some good guides/tutorials
+
 ## Basic Setup
 
--   See readme
+-   First, clone this repo to your local system
+-   Next, run `npm i` to install NPM package dependencies
+-   Then, start local server by running `npm start`
+-   See [readme](README.md) for more details
 
-## CI/CD Pipelines
+## Version Control
 
--   Hosted on Github pages
--   Testing using Jest
--   Coverage reporting using Coveralls (could use other similar tools like CodeCov or Codacity but I think Coveralls is cool and works well :)).
--   lint
--   etc.
+-   The master branch is locked, therefore all changes need to be merged in via a pull request (PR)
+-   Please create your own branch, work on that, and then open a PR when ready to merge into main
+-   The build must be succeeding before PR's can be merged, so ensure all tests pass, linter/formatter do not complain before asking for reviews on your PR
+-   Once someone reviews your PR, complete it to merge the code into master
 
 ## Hosting
 
@@ -34,9 +38,10 @@
     -   all tests should be titled `<name>.test.js` and placed in the **tests** directory
     -   all mocks should be placed in **mocks** directory
     -   if you are unfamiliar with mocks or testing, see the useful info page
--   Mocking
--   Coveralls
--   PRs and not being able to merge without 80%?
+-   Coveralls is a tool used to display our coverage visually
+    -   The Github actions deploy script has a step that generates coverage report, and then uploads the results to Coveralls
+    -   Coveralls then parses the results and displays them
+    -   We have a badge in the readme that updates with current coverage percent, or you can click [here](https://coveralls.io/github/badgerloop-software/website-react?branch=main)
 -   You can see a couple sample basic tests in the directory for `App.js`, `sum.js`, and `index.js` _(note these are dummy tests and really do not do anything, except for `sum.test.js`)_
 -   The file `reportWebVitals.js` is an example of a file we want to exclude from coverage so it does not negatively impact our coverage, and this is done by adding `/* istanbul ignore file */` at the top
 

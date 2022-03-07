@@ -4,7 +4,7 @@ export default function Card({ title, children }) {
             <div className="flex justify-center items-center -mt-10 text-white w-4/5 h-1/4 bg-gray-700 rounded-xl text-2xl font-bold">
                 {title}
             </div>
-            <div className="flex justify-center items-center text-center p-4 text-gray-700 font-normal text-lg">
+            <div className="flex justify-center items-center text-center p-4 font-normal text-lg">
                 {children}
             </div>
         </div>

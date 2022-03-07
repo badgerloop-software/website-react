@@ -4,7 +4,7 @@ import logo from '../assets/img/badgerloopText.png'
 export default function Navbar() {
     return (
         <header className="sticky top-0 z-50 flex gap-4 h-12 lg:px-6 px-4 bg-uw-red justify-between items-center">
-            <Link className="object-contain" to="/">
+            <Link className="object-contain w-1/4" to="/">
                 <img src={logo} alt="logo" />
             </Link>
             <div className="flex lg:gap-12 gap-8 text-white items-center">

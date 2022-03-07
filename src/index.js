@@ -6,19 +6,15 @@ import { render } from 'react-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
 // import About from "./pages/About";
-import Navbar from './components/Navbar'
 
 const rootElement = document.getElementById('root')
 render(
     <BrowserRouter>
-        <Navbar />
-        <div className="flex flex-col h-screen z-0">
-            <Routes>
-                <Route path="/" element={<Landing />} />
-                {/* <Route path="/about" element={<About />} /> */}
-                <Route path="*" element={<div>404</div>} />
-            </Routes>
-        </div>
+        <Routes>
+            <Route path="/" element={<Landing />} />
+            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="*" element={<div>404</div>} />
+        </Routes>
     </BrowserRouter>,
     rootElement,
 )

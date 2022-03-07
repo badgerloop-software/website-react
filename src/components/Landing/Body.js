@@ -4,7 +4,7 @@ import asc from '../../assets/img/asc.jpg'
 
 export default function Body() {
     return (
-        <div className="flex flex-col gap-16 items-center bg-gray-200 w-full h-full">
+        <div className="flex flex-col gap-16 items-center bg-gray-200 w-full h-full overflow-visible">
             <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-16 -mt-32 mx-16">
                 <Card title="Build">
                     the best solar car we can with what we have, whom we have,
@@ -23,8 +23,8 @@ export default function Body() {
                     a functional prototype solar car by July 1st 2022.
                 </Card>
             </div>
-            <div className="flex lg:justify-center lg:items-start items-center lg:text-left text-center lg:flex-row flex-col gap-16 p-16 xl:w-5/6 w-11/12">
-                <div className="flex flex-col w-3/5 text-gray-700">
+            <div className="flex lg:justify-center lg:items-start items-center lg:text-left text-center lg:flex-row flex-col gap-16 mt-8 px-16 xl:w-5/6 w-11/12">
+                <div className="flex flex-col w-3/5">
                     <div className="text-3xl font-bold mt-8">
                         About Badgerloop
                     </div>

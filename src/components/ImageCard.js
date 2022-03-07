@@ -9,7 +9,7 @@ export default function ImageCard({ title, image, alt, url, children }) {
                 src={image}
                 alt={alt}
             />
-            <div className="flex flex-col justify-center items-center gap-2 text-gray-700 h-full w-full">
+            <div className="flex flex-col justify-center items-center gap-2 h-full w-full">
                 <div className="flex justify-center items-center text-center pt-6 font-bold text-2xl">
                     {title}
                 </div>

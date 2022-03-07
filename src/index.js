@@ -12,7 +12,7 @@ const rootElement = document.getElementById('root')
 render(
     <BrowserRouter>
         <Navbar />
-        <div className="flex flex-col h-screen">
+        <div className="flex flex-col h-screen z-0">
             <Routes>
                 <Route path="/" element={<Landing />} />
                 {/* <Route path="/about" element={<About />} /> */}

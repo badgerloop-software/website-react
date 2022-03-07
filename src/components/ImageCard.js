@@ -5,15 +5,15 @@ export default function ImageCard({ title, image, alt, url, children }) {
             href={url}
         >
             <img
-                className="flex justify-center items-center lg:-mt-10 lg:ml-0 sm:mt-0 sm:-ml-10 -mt-10 lg:h-auto h-5/6 text-white rounded-xl object-contain"
+                className="flex justify-center items-center lg:-mt-10 lg:ml-0 sm:mt-0 sm:-ml-10 -mt-10 lg:h-auto h-5/6 text-white rounded-xl object-contain shadow-lg"
                 src={image}
                 alt={alt}
             />
             <div className="flex flex-col justify-center items-center gap-2 text-gray-700 h-full w-full">
-                <div className="flex justify-center items-center text-center p-2 pt-6 font-bold text-2xl">
+                <div className="flex justify-center items-center text-center pt-6 font-bold text-2xl">
                     {title}
                 </div>
-                <div className="flex justify-center items-center text-center p-2 pb-32 font-normal text-xl">
+                <div className="flex justify-center items-center text-center pb-32 font-normal text-lg">
                     {children}
                 </div>
             </div>

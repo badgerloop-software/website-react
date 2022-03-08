@@ -1,4 +1,4 @@
-import logo from '../assets/img/car.png'
+import logo from '../assets/img/carLogo.png'
 
 export default function Footer() {
     const getCurrentYear = () => {
@@ -27,7 +27,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center items-center bottom-0 text-lg">
+            <div className="flex justify-center items-center bottom-0 text-lg pt-8">
                 Badgerloop &copy; {getCurrentYear()}
             </div>
         </div>

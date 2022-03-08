@@ -1,4 +1,4 @@
-import logo from '../../assets/img/badgerloop.png'
+import logo from '../../assets/img/badgerloopLogoWhite.png'
 
 export default function Hero() {
     return (

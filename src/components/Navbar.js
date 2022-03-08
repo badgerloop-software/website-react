@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/badgerloopText.png'
+import logo from '../assets/img/badgerloopTextWhite.png'
 
 export default function Navbar() {
     return (

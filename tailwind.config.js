@@ -1,21 +1,21 @@
 module.exports = {
-    mode: "jit",
-    content: ["./src/**/*.{js,html}"],
+    mode: 'jit',
+    content: ['./src/**/*.{js,html}'],
     theme: {
         extend: {
             colors: {
-                "uw-red": "#c5050c",
+                'uw-red': '#c5050c',
             },
             backgroundImage: {
-                "hero-background":
-                    "linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.2)), url('/src/assets/img/solar1.jpg')",
+                'hero-background':
+                    "linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.2)), url('/src/assets/img/solarBackground.jpg')",
             },
             scale: {
-                101: "1.01",
+                101: '1.01',
             },
         },
     },
-};
+}
 
 // colors: {
 //   light: "#fee2e2",

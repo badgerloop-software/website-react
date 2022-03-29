@@ -9,6 +9,12 @@ export default function Navbar() {
             </Link>
             <div className="flex lg:gap-12 gap-8 text-white items-center">
                 <Link
+                    to="/about"
+                    className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"
+                >
+                    About
+                </Link>
+                <Link
                     to="/sponsors"
                     className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"
                 >

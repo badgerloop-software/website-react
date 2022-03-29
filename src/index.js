@@ -5,14 +5,20 @@ import './assets/styles/tailwind.css'
 import { render } from 'react-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
-// import About from "./pages/About";
+import About from './pages/About'
+import Sponsors from './pages/Sponsors'
+import Contact from './pages/Contact'
+import Donate from './pages/Donate'
 
 const rootElement = document.getElementById('root')
 render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Landing />} />
-            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="/about" element={<About />} />
+            <Route path="/sponsors" element={<Sponsors />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/donate" element={<Donate />} />
             <Route path="*" element={<div>404</div>} />
         </Routes>
     </BrowserRouter>,

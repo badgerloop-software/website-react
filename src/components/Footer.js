@@ -6,7 +6,7 @@ export default function Footer() {
     }
 
     return (
-        <div className="w-full py-16 px-32 bg-gray-300 bottom-0">
+        <div className="w-full py-8 px-32 bg-gray-300 bottom-0">
             <div className="grid grid-cols-3 ">
                 <div className="flex flex-col">
                     <div className="font-bold text-xl">Follow us!</div>

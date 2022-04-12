@@ -1,7 +1,7 @@
 export default function ImageCard({ title, image, alt, url, children }) {
     return (
         <a
-            className="flex lg:flex-col sm:flex-row flex-col justify-center items-center -mt-32 p-4 lg:h-5/6 h-1/3 lg:w-1/3 w-5/6 mt-4 bg-white shadow-lg rounded-xl hover:shadow-xl hover:scale-105 duration-300 ease-in-out"
+            className="flex lg:flex-col sm:flex-row flex-col justify-center items-center p-4 lg:h-2/3 h-1/4 lg:w-1/3 w-5/6 bg-white shadow-lg rounded-xl hover:shadow-xl hover:scale-105 duration-300 ease-in-out"
             href={url}
         >
             <img

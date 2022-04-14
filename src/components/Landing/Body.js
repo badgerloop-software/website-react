@@ -1,55 +1,38 @@
-import Card from '../Card'
 import ImageCard from '../ImageCard'
 import asc from '../../assets/img/asc.jpg'
 
 export default function Body() {
     return (
-        <div className="flex flex-col gap-16 items-center bg-gray-200 w-full h-full overflow-visible mb-8">
-            <div className="grid xl:grid-cols-4 grid-cols-2 gap-16 -mt-32 mx-16">
-                <Card title="Build">
-                    the best solar car we can with what we have, whom we have,
-                    and the time we have.
-                </Card>
-                <Card title="Develop">
-                    the skills necessary for high-level professional work by
-                    experiencing an engineering startup environment, including
-                    innovative hands-on engineering and operations.
-                </Card>
-                <Card title="Learn">
-                    from mistakes and utilize Hyperloop Competition experience
-                    while also paving new paths of understanding.
-                </Card>
-                <Card title="Complete">
-                    a functional prototype solar car by July 1st 2022.
-                </Card>
-            </div>
-            <div className="flex flex-col justify-center items-center gap-28 h-full -mt-8">
-                <div className="flex flex-col justify-center items-center">
-                    <div className="text-4xl font-bold">Our Mission</div>
-                    <div className="text-xl font-normal">
+        <div className="flex flex-col items-center w-full md:h-4/5 h-5/6 h-full">
+            <div className="flex flex-col items-center lg:gap-40 gap-20 pt-12">
+                <div className="flex flex-col justify-center text-center px-4">
+                    <div className="lg:text-4xl text-3xl font-bold">
+                        Our Mission
+                    </div>
+                    <div className="lg:text-xl md:text-lg text-md font-normal">
                         Provide an unparalleled learning opportunity that
                         fosters innovation and hands-on experience.
                     </div>
                 </div>
-                <div className="flex flex-col lg:justify-center lg:items-start items-center lg:text-left text-center lg:flex-row gap-16 mt-8 px-16 xl:w-5/6 w-11/12">
-                    <div className="flex flex-col w-3/5 gap-6 -mt-12">
-                        <div className="text-3xl font-bold">
+                <div className="flex lg:flex-row flex-col lg:justify-center lg:items-start items-center lg:text-left text-center md:gap-16 gap-12 xl:mx-40 lg:mx-32 md:mx-24 sm:mx-16 mx-8">
+                    <div className="flex flex-col lg:w-3/5 lg:gap-6 md:gap-4 gap-3 -mt-12">
+                        <div className="lg:text-3xl text-2xl font-bold">
                             About Badgerloop
                         </div>
-                        <div className="text-xl font-normal">
+                        <div className="lg:text-xl md:text-lg text-md font-normal">
                             We are a registered student organization with the
-                            University of Wisconsin–Madison. Our organizations
+                            University of Wisconsin-Madison. Our organizations
                             goal is to design, build and test a car to compete
                             in the American Solar Challenge.
                         </div>
-                        <div className="text-xl font-normal">
+                        <div className="lg:text-xl md:text-lg text-md font-normal">
                             Made up of a majority of undergraduate students, we
                             put our efforts forth to this organization to better
                             ourselves as well as to contribute to the
                             development of a future mode of transportation we
                             believe in.
                         </div>
-                        <div className="text-xl font-normal">
+                        <div className="lg:text-xl md:text-lg text-md font-normal">
                             All of our efforts are made possible by our generous
                             donors, who we cannot thank enough.
                         </div>

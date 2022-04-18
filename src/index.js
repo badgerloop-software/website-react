@@ -9,7 +9,6 @@ import Team from './pages/Team'
 import About from './pages/About'
 import Sponsors from './pages/Sponsors'
 import Contact from './pages/Contact'
-import Donate from './pages/Donate'
 
 const rootElement = document.getElementById('root')
 render(
@@ -20,7 +19,6 @@ render(
             <Route path="/about" element={<About />} />
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/donate" element={<Donate />} />
             <Route path="*" element={<div>404</div>} />
         </Routes>
     </BrowserRouter>,

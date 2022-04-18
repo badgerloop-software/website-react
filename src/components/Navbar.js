@@ -27,7 +27,7 @@ export default function Navbar() {
                     Contact
                 </Link>
                 <Link
-                    to="/"
+                    to="https://secure.supportuw.org/give/?id=93cf38e8-6152-4f29-8065-02b2e65a84bd"
                     className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"
                 >
                     Donate

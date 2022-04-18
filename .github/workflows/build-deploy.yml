@@ -31,14 +31,14 @@ jobs:
     # - name: Run tests
     #   run: npm run test
 
-    - name: Generate coverage report
-      run: npm run coverage
+    #- name: Generate coverage report
+    #  run: npm run coverage
 
     # Save coverage report in Coveralls
-    - name: Upload coverage to Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+    #- name: Upload coverage to Coveralls
+    #  uses: coverallsapp/github-action@master
+    #  with:
+    #    github-token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: format
       run: npm run prettier:check

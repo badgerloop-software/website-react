@@ -14,7 +14,7 @@ const rootElement = document.getElementById('root')
 render(
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Landing />} />
+            <Route path="" element={<Landing />} />
             <Route path="/team" element={<Team />} />
             <Route path="/about" element={<About />} />
             <Route path="/sponsors" element={<Sponsors />} />

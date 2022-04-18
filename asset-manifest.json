@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/website-react/static/css/main.abd64e84.css",
-    "main.js": "/website-react/static/js/main.b81e8f78.js",
-    "static/media/logo.svg": "/website-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/website-react/static/css/main.be1a127e.css",
+    "main.js": "/website-react/static/js/main.c4fbc98d.js",
+    "static/js/787.9aca7108.chunk.js": "/website-react/static/js/787.9aca7108.chunk.js",
+    "static/media/solarBackground.jpg": "/website-react/static/media/solarBackground.8d7c96454138b1dd7219.jpg",
+    "static/media/asc.jpg": "/website-react/static/media/asc.786f8bbb8ed069944031.jpg",
+    "static/media/badgerloopLogoWhite.png": "/website-react/static/media/badgerloopLogoWhite.e9ac7f2b664ea814c94e.png",
+    "static/media/badgerloopLogoBlack.png": "/website-react/static/media/badgerloopLogoBlack.7bfce4c476042c8cbefa.png",
     "index.html": "/website-react/index.html",
-    "main.abd64e84.css.map": "/website-react/static/css/main.abd64e84.css.map",
-    "main.b81e8f78.js.map": "/website-react/static/js/main.b81e8f78.js.map"
+    "main.be1a127e.css.map": "/website-react/static/css/main.be1a127e.css.map",
+    "main.c4fbc98d.js.map": "/website-react/static/js/main.c4fbc98d.js.map",
+    "787.9aca7108.chunk.js.map": "/website-react/static/js/787.9aca7108.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd64e84.css",
-    "static/js/main.b81e8f78.js"
+    "static/css/main.be1a127e.css",
+    "static/js/main.c4fbc98d.js"
   ]
 }

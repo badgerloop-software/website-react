@@ -19,5 +19,6 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'arrow-body-style': 'off',
         'prefer-arrow-callback': 'off',
+        'no-unused-vars: ': 'off',
     },
 }

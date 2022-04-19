@@ -15,6 +15,7 @@ render(
     <BrowserRouter>
         <Routes>
             <Route path="" element={<Landing />} />
+            <Route path="/website-react" element={<Landing />} />
             <Route path="/team" element={<Team />} />
             <Route path="/about" element={<About />} />
             <Route path="/sponsors" element={<Sponsors />} />

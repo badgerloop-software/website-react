@@ -1,6 +1,6 @@
 import logo from '../../assets/img/badgerloopLogoBlack.png'
 
-export default function header() {
+export default function Header() {
     return (
         <div className="flex justify-center items-center bg-gray-200 p-8 gap-12">
             <img className="object-contain" src={logo} alt="logo" />

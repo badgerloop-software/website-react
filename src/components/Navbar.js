@@ -1,19 +1,44 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import logo from '../assets/img/badgerloopTextWhite.png'
+import Team from '../pages/Team.js'
 
 export default function Navbar() {
+    const [showDropdown, setShowDropdown] = useState(false)
+
+    const toggleDropdown = () => {
+        setShowDropdown(!showDropdown)
+    }
+
+    const closeDropdown = () => {
+        setShowDropdown(false)
+    }
+
     return (
         <header className="sticky top-0 z-50 flex gap-4 h-12 lg:px-6 px-4 bg-uw-red justify-between items-center">
             <Link className="object-contain w-1/4" to="/">
                 <img src={logo} alt="logo" />
             </Link>
             <div className="flex lg:gap-12 gap-8 text-white items-center">
-                <Link
-                    to="/"
-                    className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"
-                >
-                    About
-                </Link>
+                <div className="relative">
+                    <button
+                        className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"
+                        onClick={toggleDropdown}
+                    >
+                        About
+                    </button>
+                    {showDropdown && (
+                        <div className="absolute top-10 left-0 bg-uw-red rounded-md shadow-lg py-2 w-40">
+                            <Link
+                                to="/team"
+                                onClick={toggleDropdown}
+                                className="block px-4 py-2 text-white hover:bg-white hover:text-uw-red"
+                            >
+                                Our Team
+                            </Link>
+                        </div>
+                    )}
+                </div>
                 <Link
                     to="/"
                     className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"

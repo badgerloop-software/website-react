@@ -11,7 +11,7 @@ const TeamleadCard = ({ image, name, team, major, year }) => {
                     {name}
                 </h1>
                 <p className="text-gray-700 text-base mb-2">{team}</p>
-                <p className="text-gray-700 text-base">{major}</p>
+                <p className="text-gray-700 text-base mb-2">{major}</p>
                 <p className="text-gray-700 text-base">{year}</p>
             </div>
         </div>

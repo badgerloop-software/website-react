@@ -4,14 +4,21 @@ import logo from '../assets/img/badgerloopTextWhite.png'
 import Team from '../pages/Team.js'
 
 export default function Navbar() {
+    let onDropdown = false
     const [showDropdown, setShowDropdown] = useState(false)
 
     const toggleDropdown = () => {
-        setShowDropdown(!showDropdown)
+        setShowDropdown(true)
+        onDropdown = true
     }
 
-    const closeDropdown = () => {
-        setShowDropdown(false)
+    const hideDropdownOnHover = () => {
+        onDropdown = false
+        setTimeout(() => {
+            if (!onDropdown) {
+                setShowDropdown(false)
+            }
+        }, 300)
     }
 
     return (
@@ -23,16 +30,18 @@ export default function Navbar() {
                 <div className="relative">
                     <button
                         className="font-bold text-lg hover:scale-110 duration-300 ease-in-out"
-                        onClick={toggleDropdown}
+                        onMouseEnter={toggleDropdown}
+                        onMouseLeave={hideDropdownOnHover}
                     >
                         About
                     </button>
                     {showDropdown && (
-                        <div className="absolute top-10 left-0 bg-uw-red rounded-md shadow-lg py-2 w-40">
+                        <div className="absolute top-10 left-[-30px] bg-uw-red rounded-md shadow-lg py-2 w-40">
                             <Link
                                 to="/team"
-                                onClick={toggleDropdown}
                                 className="block px-4 py-2 text-white hover:bg-white hover:text-uw-red"
+                                onMouseEnter={toggleDropdown}
+                                onMouseLeave={hideDropdownOnHover}
                             >
                                 Our Team
                             </Link>

@@ -222,6 +222,7 @@ export default function MemberList() {
                             name={teamLead.name}
                             team={teamLead.team}
                             major={teamLead.major}
+                            year={teamLead.year}
                         />
                     ))}
                 </div>
@@ -238,6 +239,7 @@ export default function MemberList() {
                             name={teamLead.name}
                             team={teamLead.team}
                             major={teamLead.major}
+                            year={teamLead.year}
                         />
                     ))}
                 </div>
@@ -254,6 +256,7 @@ export default function MemberList() {
                             name={teamLead.name}
                             team={teamLead.team}
                             major={teamLead.major}
+                            year={teamLead.year}
                         />
                     ))}
                 </div>
@@ -270,6 +273,7 @@ export default function MemberList() {
                             name={teamLead.name}
                             team={teamLead.team}
                             major={teamLead.major}
+                            year={teamLead.year}
                         />
                     ))}
                 </div>
